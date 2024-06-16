@@ -1,0 +1,28 @@
+.button-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 70px;
+    margin: 100px;
+}
+
+.button-container > button {
+    font-size: large;
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.button-container > button:hover {
+    background-color: wheat;
+}
+
+.button-container > button:active {
+    background-color: grey;
+    color: white;
+}
+
+.button-container > button > img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
