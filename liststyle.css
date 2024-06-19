@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: #34495e;
+}
+
+.container {
+    display: grid;
+    margin-top: calc(10vh);
+    margin-left: calc(40vh);
+    margin-right: calc(40vh);
+}
+
+.container > a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 40px;
+    color: black;
+    background-color: #ecf0f1;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px black;
+    border: 2px solid black;
+}
